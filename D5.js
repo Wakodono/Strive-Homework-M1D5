@@ -112,7 +112,7 @@ function upperFirst(str) {
 Write a function "cutString" to create a new string without the first and last character of a given string.
 */
 
-//use splice to manipulate string to achieve this 
+//use slice to manipulate string to achieve this 
 
 function cutString(str) {
     return str.slice(1, str.length - 1);
